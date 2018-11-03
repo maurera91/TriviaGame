@@ -1,0 +1,29 @@
+img{
+    width: 250px;
+    margin: 50px 0px 50px 0px;
+    border: 2px solid black;
+    padding: 2px;
+}
+body{
+    background: url("../images/background.jpg");
+}
+#question, #answers{
+    height: 50%;
+    background: white;
+    border: 2px solid black;
+}
+a{
+    margin: 10px 0px 10px 0px;
+}
+/* centers content in the question and answer divs */
+#question, #answers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.jumbotron{
+    border: 2px solid black;
+
+}
